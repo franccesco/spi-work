@@ -1,19 +1,21 @@
 # Remarks
 
-Political Party: Partido Socialista Obrero Español (PSOE)
+Political Party: Partido de la Liberación Dominicana (PLD)
+
+Constituency:
+Santo Domingo
 
 Career:
-Member of the Council of Cartagena (June 21, 2017 - 2019)
+Vicepresident of the Latin American and Caribbean Parliament (Parlatino) (2015 - 2017)
+Member of the Chamber of Deputies (August 16, 2006 - 2020)
 
-Personal:
-Married and has two children
+*******************************************************************************************
 
-*******************************************************************************
+Partido Político: Partido de la Liberación Dominicana (PLD)
 
-Partido Político: Partido Socialista Obrero Español (PSOE)
+Circunscripción:
+Santo Domingo
 
 Trayectoria:
-Miembro del Concejo de Cartagena (Junio 21, 2017 - 2019)
-
-Personal:
-Casado y tiene dos hijos
+Vicepresidente del Parlamento Latinoamericano y Caribeño (Parlatino) (2015 - 2017)
+Miembro de la Cámara de Diputados (Agosto 16, 2006 - 2020)
