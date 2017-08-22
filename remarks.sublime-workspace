@@ -368,13 +368,22 @@
 	"buffers":
 	[
 		{
-			"file": "remarks.md",
+			"file": "remarks_english.md",
 			"settings":
 			{
-				"buffer_size": 751,
+				"buffer_size": 1238,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
-				"name": "# Remarks"
+				"name": "Remarks"
+			}
+		},
+		{
+			"file": "add_info.md",
+			"settings":
+			{
+				"buffer_size": 130,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -402,9 +411,61 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "env",
+		"last_filter": "git lg",
 		"selected_items":
 		[
+			[
+				"git lg",
+				"Git: Log All"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"addto",
+				"Snippet: addto"
+			],
+			[
+				"snipper",
+				"Snippet: Markdown Codeblock"
+			],
+			[
+				"git quic",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"origami righ",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git commi",
+				"Git: Commit history"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
 			[
 				"env",
 				"Snippet: #!/usr/bin/env"
@@ -434,24 +495,12 @@
 				"Git: Update Project Ignored Files"
 			],
 			[
-				"git qui",
-				"Git: Quick Commit (repo)"
-			],
-			[
 				"qui",
-				"Git: Quick Commit (repo)"
-			],
-			[
-				"git quic",
 				"Git: Quick Commit (repo)"
 			],
 			[
 				"gitgno",
 				"Git: Update Project Ignored Files"
-			],
-			[
-				"git status",
-				"Git: Status"
 			],
 			[
 				"git command",
@@ -464,10 +513,6 @@
 			[
 				"git push",
 				"Git: Push"
-			],
-			[
-				"git commi",
-				"Git: Commit"
 			],
 			[
 				"gitig",
@@ -502,10 +547,6 @@
 				"Preferences: Alignment File Settings – Syntax Specific – User"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"branc",
 				"Git: Change Branch"
 			],
@@ -522,7 +563,7 @@
 				"Git: Quick Commit (repo, only already added files)"
 			]
 		],
-		"width": 536.0
+		"width": 483.0
 	},
 	"console":
 	{
@@ -572,6 +613,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/francescco.orozco/Documents/SublimeText/Data/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/francescco.orozco/Documents/SublimeText/Data/Packages/User/Terminal.sublime-settings",
+		"/C/Users/francescco.orozco/Documents/remarks/remarks_spanish.md",
+		"/C/Users/francescco.orozco/Documents/SublimeText/Data/Packages/User/addto.sublime-snippet",
+		"/C/Users/francescco.orozco/Documents/remarks/add_info.md",
+		"/C/Users/francescco.orozco/Documents/remarks/remarks.md",
+		"/C/Users/francescco.orozco/Documents/remarks/remarks.sublime-project",
 		"/C/Users/francescco.orozco/Documents/projects/python-crashcourse/examples/remember_me.py",
 		"/C/Users/francescco.orozco/Documents/projects/python-crashcourse/examples/name_function.py",
 		"/C/Users/francescco.orozco/Documents/projects/python-crashcourse/examples/test_name_function.py",
@@ -656,7 +704,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -700,31 +748,70 @@
 			[
 				{
 					"buffer": 0,
-					"file": "remarks.md",
+					"file": "remarks_english.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 751,
+						"buffer_size": 1238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
+								558,
+								558
 							]
 						],
 						"settings":
 						{
-							"auto_name": "# Remarks",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+							"history_list_is_closing": true,
+							"spell_check": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"word_wrap": true,
+							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 2.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "add_info.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -732,7 +819,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -747,6 +834,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -757,6 +850,7 @@
 		"rows":
 		[
 			0.0,
+			0.851432485718,
 			1.0
 		]
 	},
@@ -767,17 +861,17 @@
 	},
 	"output.find_results":
 	{
-		"height": 0.0
+		"height": 146.0
 	},
 	"output.git":
 	{
-		"height": 100.0
+		"height": 98.0
 	},
 	"pinned_build_system": "",
 	"project": "remarks.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 82.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -819,13 +913,14 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190.0,
+	"side_bar_width": 159.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
+		"max_columns": 2
 	}
 }
