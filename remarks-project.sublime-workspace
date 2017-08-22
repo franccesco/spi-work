@@ -753,12 +753,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "C:\\Users\\francescco.orozco\\Documents\\remarks"
-		}
-	],
 	"groups":
 	[
 		{
@@ -881,7 +875,7 @@
 		"height": 98.0
 	},
 	"pinned_build_system": "",
-	"project": "",
+	"project": "remarks-project.sublime-project",
 	"replace":
 	{
 		"height": 58.0
