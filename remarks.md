@@ -1,7 +1,10 @@
 # Remarks
 
-According to politica.elpais.com; August 19, 2016: Sahal El Karib was arrested for alleged terrorism and organized crime in Ripoll, Catalonia by the Mossos d'Esquadra. Authorities informed that El Karib was an alleged member of a Jihadists cell, formed by a dozen people suspected of the massacre in La Rambla, Barcelona where 13 people were killed and more than 100 people were injured. As well, other five members were shot after the Mossos d'Esquadra stopped a terrorist attack in Cambrils, Catalonia.
+According to nytimes.com; August 22, 2017: Abdelbaki Essati was allegedly involved in the terrorist attacks of Barcelona and Cambrils. Essati is believed to have died in an explosion while making a bomb. Essati and a co-conspirators, two ISIS cell members, died in an explosion in Alcanar on August 16, 2017, which has been linked to the two attacks in Barcelona.
 
 ***************************************************************************************************************************************************
 
-De acuerdo a politica.elpais.com; Agosto 19, 2016: Sahal El Karib fue arrestado por presunto terrorismo y crimen organizado en Ripoll, Cataluña, por los Mossos d'Esquadra. Las autoridades informaron que El Karib era un presunto miembro de una célula de los Jihadistas, formada por una docena de personas sospechosas de la masacre en La Rambla, Barcelona donde murieron 13 personas y más de 100 resultaron heridas. Además, otros cinco miembros fueron fusilados después de que los Mossos d'Esquadra detuvieron un ataque terrorista en Cambrils, Cataluña.
+De acuerdo a nytimes.com; Agosto 22, 2017: Abdelbaki Essati fue alegadamente involucrado en el ataque terrorista de Barcelona y Cambrils. Se cree que Essati murió en una explosión al preparar una bomba. Essati y otro co-conspirador, dos miembros de una celula de ISIS, murieron en una explosión en Alcanar en Agosto 16, 2017, el cual ha sido vinculado a los dos ataques en Barcelona.
+
+# Source links
+https://www.nytimes.com/interactive/2017/08/22/world/europe/spain-attacks-what-we-know-about-the-suspects.html?mcubz=3
