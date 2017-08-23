@@ -1,11 +1,11 @@
 # Remarks
 
-According to lavanguardia.com; August 22, 2017: Younes Abouyaaqoub, the most wanted terrorist that killed 13 people at the Rambla and stabbed another in the Diagonal was identified and killed yesterday afternoon on a country road next to Some vineyards, in the municipality of Subirats, in the Alt Penedès.
+According to madridiario.es; August 22, 2017: Mohammed Aallaa, who was the owner of the van used for the attack, was set free by the National Audience. The Judge Fernando Andreu ordered to set free Mohammed Aallaa as the collected evidence was not sufficient enough to prove his involvement in the terrorist cell and will have to attend to court on a weekly basis.
 
-According to bbc.com; August 19, 2017: Younes Abouyaaqoub was suspected for terrorism by the Spanish authorities for conducting terror attacks in Barcelona, Spain. Younes Abouyaaqoub was suspected for driving over pedestrians in Las Ramblas, Barcelona, that left 13 people dead and 100 injured.
+According to abc.es; August 19, 2017: Mohammed Aallaa was arrested by the Mossos d'Esquadra for terrorism. Aallaa was linked to the terrorist attack on Las Ramblas, Barcelona, where a van hit a crowd and caused 13 fatalities and more than 100 injured and another attack in Cambrils, where one person died and 5 terrorists were killed. Aallaa was reported as the owner of the Audi A3 used by the 5 terrorists killed in Cambrils.
 
-*******************************************************
+************************************************************************************************************
 
-De acuerdo con lavanguardia.com; August 22, 2017: Younes Abouyaaqoub, de 22 años, el terrorista más buscado desde que al volante de una furgoneta a 13 personas en la Rambla y acuchilló a otra más en la Diagonal fue identificado y abatido ayer por la tarde en un camino rural junto a unas viñas, en el municipio de Subirats, en el Alt Penedès.
+De acuerdo a madridiario.es; Agosto 22, 2017: Mohammed Aallaa, dueño del auto usado para perpetuar el ataque, fue puesto en libertad por la Audiencia Nacional. El Juez Fernando Andreu ordenó la libertad de Mohammed Aallaa ya que la evidencia presentada no fue suficiente para probar su envolvimiento en la celula terroristay deberá atender a la corte semanalmente.
 
-De acuerdo a bbc.com; Agosto 19, 2017: Younes Abouyaaqoub es sospechoso por terrorismo por las autoridades por conducir ataques terroristas en Barcelona, España. Younes Abouyaaqoub fue sospechoso de atropellar transeúntes en Las Ramblas, Barcelona, que dejó un saldo de 13 personas muertas y 100 heridos.
+De acuerdo acuerdo a abc.es; Agosto 19, 2017: Mohammed Aallaa fue arrestado por los Mossos d'Esquadra por terrorismo. Aallaa fue vinculado al ataque terrorista en Las Ramblas, Barcelona, donde una furgoneta atropelló a una multitud y causó 13 víctimas mortales y más de 100 heridos y otro atentado en Cambrils, donde falleció una persona y 5 terroristas fueron abatidos. Aallaa constaba como propietario del Audi A3 utilizado por los 5 terroristas muertos en Cambrils.
