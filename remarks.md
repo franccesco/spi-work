@@ -1,18 +1,20 @@
 # Position
-Ambassador of Spain to Bolivia, appointed on July 21, 2017
+Director General of Ethics and Governmental Integrity, effective since September 14,  2016
 
 # Remarks
-Career:
-Ambassador of Spain to Bolivia, appointed on July 21, 2017
-First Counselor of Spain to United Kingdom, as of 2014
-Ambassador of Spain to El Salvador (2011 - June 15, 2012)
+Political Party: Partido de la Liberación Dominicana (PLD)
 
-**********************************************************************
+Career:
+Director General of Ethics and Governmental Integrity, effective since September 14,  2016
+Member of the Chamber of Deputies (August 16, 2006 - August 16, 2010)
+
+******************************************************
+
+Partido Político:Partido de la Liberación Dominicana (PLD)
 
 Trayectoria:
-Embajador de España a Bolivia, designado en Julio 21, 2017
-Primer Consejero de España en Reino Unido, en 2014
-Embajador de España en El Salvador (2011 - Junio 15, 2012)
+Director General de Etica e Integridad Gubernamental, efectivo desde Septiembre 14, 2016
+Miembro de la Cámara de Diputados (Agosto 16, 2006 - Agosto 16, 2010)
 
 # Source links
 http://www.mindef.gob.bo/mindef/node/2958
