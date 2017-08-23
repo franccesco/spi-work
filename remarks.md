@@ -1,12 +1,18 @@
+# Position
+Ambassador of Spain to Bolivia, appointed on July 21, 2017
+
 # Remarks
+Career:
+Ambassador of Spain to Bolivia, appointed on July 21, 2017
+First Counselor of Spain to United Kingdom, as of 2014
+Ambassador of Spain to El Salvador (2011 - June 15, 2012)
 
-According to nytimes.com; August 22, 2017: Youseff Aallaa was allegedly involved in the terrorist attacks of Barcelona and Cambrils. Aallaa is believed to have died in an explosion while making a bomb. Aallaa and a co-conspirators, two ISIS cell members, died in an explosion in Alcanar on August 16, 2017, which has been linked to the two attacks in Barcelona.
+**********************************************************************
 
-***************************************************************************************************************************************************
-
-De acuerdo a nytimes.com; Agosto 22, 2017: Youseff Aallaa fue alegadamente involucrado en el ataque terrorista de Barcelona y Cambrils. Se cree que Aallaa murió en una explosión al preparar una bomba. Aallaa y otro co-conspirador, dos miembros de una celula de ISIS, murieron en una explosión en Alcanar en Agosto 16, 2017, el cual ha sido vinculado a los dos ataques en Barcelona.
+Trayectoria:
+Embajador de España a Bolivia, designado en Julio 21, 2017
+Primer Consejero de España en Reino Unido, en 2014
+Embajador de España en El Salvador (2011 - Junio 15, 2012)
 
 # Source links
-https://www.nytimes.com/interactive/2017/08/22/world/europe/spain-attacks-what-we-know-about-the-suspects.html?mcubz=3
-https://www.yahoo.com/news/victims-las-ramblas-terror-attack-235202262.html
-https://www.yahoo.com/news/barcelona-attack-real-suicide-vest-162515034.html
+http://www.mindef.gob.bo/mindef/node/2958
