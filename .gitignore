@@ -105,3 +105,5 @@ ENV/
 
 # Work related exclusions
 entities/
+remarks.md
+additional_info.md
