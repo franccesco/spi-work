@@ -1,8 +1,15 @@
 # import file_operations.py variables and functions
 from modules.file_operations import *
 
-new_entity = input('New entity: ')
+active = True
+print("Press 'q' to quit.")
 
-# create new entity and append .markdown extension
-# ... 'cause it looks prettier dammit!
-create_entity(new_entity + '.md')
+while active:
+    new_entity = input('Entity: ')
+    if new_entity == 'q':
+        print('Exiting...')
+        break
+    else:
+        # create new entity and append .markdown extension
+        # ... 'cause it looks prettier dammit!
+        create_entity(new_entity + '.md')
