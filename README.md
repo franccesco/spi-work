@@ -6,5 +6,8 @@
  # TODO
  * Skeleton template
  * Templates for AM/ENF
+ * ARGV options
+ * CRUD implementation
+ * TDD methodology
  * A functional death star
  * A more effective TODO.
