@@ -10,7 +10,7 @@ Member of the Chamber of Deputies (August 16, 2006 - August 16, 2010)
 
 ******************************************************
 
-Partido Político:Partido de la Liberación Dominicana (PLD)
+Partido Político: Partido de la Liberación Dominicana (PLD)
 
 Trayectoria:
 Director General de Etica e Integridad Gubernamental, efectivo desde Septiembre 14, 2016
