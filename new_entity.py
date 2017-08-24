@@ -1,5 +1,5 @@
 # import file_operations.py variables and functions
-from modules.file_operations import *
+import modules
 
 active = True
 print("Press 'q' to quit.")
@@ -12,4 +12,4 @@ while active:
     else:
         # create new entity and append .markdown extension
         # ... 'cause it looks prettier dammit!
-        create_entity(new_entity)
+        modules.io.create_entity(new_entity)
