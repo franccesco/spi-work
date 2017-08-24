@@ -12,4 +12,4 @@ while active:
     else:
         # create new entity and append .markdown extension
         # ... 'cause it looks prettier dammit!
-        create_entity(new_entity + '.md')
+        create_entity(new_entity)

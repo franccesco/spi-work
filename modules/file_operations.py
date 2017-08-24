@@ -26,7 +26,7 @@ def create_entity(new_entity):
 
     entity_template = 'template.md'
     # Ask for new entity
-    new_entity_estructure = path_structure + '/' + new_entity
+    new_entity_estructure = path_structure + '/' + new_entity + '.md'
 
     # checks if file exist, if false: create new entity.
     if os.path.isfile(new_entity_estructure):
