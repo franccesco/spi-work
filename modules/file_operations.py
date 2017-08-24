@@ -26,12 +26,13 @@ def create_entity(new_entity):
 
     entity_template = 'template.md'
     # Ask for new entity
-    new_entity_estructure = path_structure + '\\' + new_entity
+    new_entity_estructure = path_structure + '/' + new_entity
 
     # checks if file exist, if false: create new entity.
     if os.path.isfile(new_entity_estructure):
         print('Entity already exist.')
     else:
         # copy template file to new entity
+        create_dir()
         copyfile(entity_template, new_entity_estructure)
         print('File ' + new_entity + ' created.')
