@@ -12,11 +12,16 @@ class EntityTestCase(unittest.TestCase):
         self.path = 'entities/' + time.strftime('%Y/%m/%d')
         self.id_full_path = self.path + '/' + self.new_entity_id + '.md'
 
-    def test_file_creation(self):
-        """Test random id file and empty file."""
-        modules.io.create_entity(self.new_entity_id)
-        # check if file exist
-        self.assertTrue(os.path.isfile(self.id_full_path))
-        self.assertEqual(self.id_full_path, self.id_full_path)
+    #def test_file_creation(self):
+    #    """Test random id file and empty file."""
+    #    modules.io.create_entity(self.new_entity_id)
+    #    # check if file exist
+    #    self.assertTrue(os.path.isfile(self.id_full_path))
+    #    self.assertEqual(self.id_full_path, self.id_full_path)
+
+    def test_empty_file(self):
+        """Test if empty file is named correctly."""
+        modules.io.create_entity()
+        self.assertTrue(self.path + '/draft_entity.md')
 
 unittest.main()
