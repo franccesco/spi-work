@@ -24,7 +24,7 @@ def create_dir():
 def create_entity(new_entity = 'draft_entity'):
     """check if file exist. if not, then proceed to create."""
 
-    entity_template = 'template.md'
+    entity_template = 'templates/empty_template.md'
     # Ask for new entity
     new_entity_estructure = path_structure + '/' + new_entity + '.md'
 
