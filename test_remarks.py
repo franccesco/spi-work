@@ -3,10 +3,8 @@ import modules
 import os
 import time
 import random
-
 class EntityTestCase(unittest.TestCase):
     """Test new_entity function."""
-
     def setUp(self):
 
         # simulating an entity ID
@@ -19,6 +17,7 @@ class EntityTestCase(unittest.TestCase):
         self.am_template_location = 'templates/am_template.md'
         self.am_pep_template_location = 'templates/am_pep_template.md'
         self.empty_template_location = 'templates/empty_template.md'
+        self.pep_template_location = 'templates/pep_template.md'
 
         # opening templates to read them later and compare them
         with open(self.empty_template_location) as empty_temp_object:
@@ -27,6 +26,8 @@ class EntityTestCase(unittest.TestCase):
             self.am_template = am_temp_object.read()
         with open(self.am_pep_template_location) as am_pep_temp_object:
             self.am_pep_template = am_pep_temp_object.read()
+        with open(self.pep_template_location) as pep_temp_object:
+            self.pep_template = pep_temp_object.read()
 
     # uncomment this section to test new file creations
     # but it can clutter the folders when ran too many times
@@ -43,24 +44,28 @@ class EntityTestCase(unittest.TestCase):
         self.assertTrue(self.draft_location)
 
     def test_created_templates(self):
-        """Test if all template creations are flushed correctly."""
-
+        """Test if all template are created correctly."""
         # create skeleton draft and open it to compare it
         modules.io.create_entity()
         with open(self.draft_location) as draft_location_object:
             draft_template = draft_location_object.read()
         self.assertEqual(self.empty_template, draft_template)
 
-#    def test_am_template(self):
-#        """Test if adverse media template works."""
-#        modules.io.create_entity(AM = True)
+        # create PEP template
+        modules.io.create_entity(entity_PEP = True, entity_AM = False)
+        with open(self.draft_location) as draft_location_object:
+            draft_template = draft_location_object.read()
+        self.assertEqual(self.pep_template, draft_template)
 
-#        with open('templates/am_template.md') as am_filename:
-#            am_template = am_filename.read()
+        # create adverse media template
+        modules.io.create_entity(entity_AM = True)
+        with open(self.draft_location) as draft_location_object:
+            draft_template = draft_location_object.read()
+        self.assertEqual(self.am_template, draft_template)
 
-#        with open(self.draft_path) as new_am_filename:
-#            new_am_template = new_am_filename.read()
-
-#        self.assertEqual(am_template, new_am_template)
+        # create PEP with adverse media template
+        modules.io.create_entity(entity_AM = True, entity_PEP = True)
+        with open(self.draft_location) as draft_location_object:
+            draft_template = draft_location_object.read()
 
 unittest.main()
