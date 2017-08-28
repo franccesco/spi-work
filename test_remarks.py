@@ -68,4 +68,9 @@ class EntityTestCase(unittest.TestCase):
         with open(self.draft_location) as draft_location_object:
             draft_template = draft_location_object.read()
 
+    def test_overwrite_draft(self):
+        """Test for overwrite option in draft creation."""
+        overwrite_entity = modules.io.create_entity(overwrite = False)
+        self.assertFalse(overwrite_entity)
+
 unittest.main()

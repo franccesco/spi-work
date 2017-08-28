@@ -4,6 +4,7 @@
 import os
 import time
 from shutil import copyfile
+import sys
 
 # Define file estructure with date format
 path_structure = 'entities/' + time.strftime('%Y/%m/%d')
@@ -30,6 +31,8 @@ def create_entity(new_entity = 'draft_entity', entity_AM = False, entity_PEP = F
     # Ask for new entity
     new_entity_estructure = path_structure + '/' + new_entity + '.md'
 
+    if os.path.isfile(new_entity_estructure):
+        return False
     if entity_AM == False and entity_PEP == False:
         # copy empty skeleton
         create_dir()
