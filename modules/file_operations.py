@@ -4,26 +4,41 @@
 import os
 import time
 from shutil import copyfile
-import sys
 
 # Define file estructure with date format
 path_structure = 'entities/' + time.strftime('%Y/%m/%d')
 
+
 def check_dir_exist():
+    """Check if directory exists."""
     if os.path.isdir(path_structure):
         return True
     else:
         return False
 
-def create_dir():
-    if check_dir_exist():
-        pass
-    else:
-        print("Directory '" + path_structure + "' does not exist. Creating...")
-        os.makedirs(path_structure)
 
-def create_entity(new_entity = 'draft_entity', entity_AM = False, entity_PEP = False, overwrite = False):
-    """check if file exist. if not, then proceed to create."""
+def check_draft_exist(draft_location):
+    """Check if draft exists."""
+    if os.path.isfile(draft_location):
+        return True
+    else:
+        return False
+
+
+def create_dir():
+    """Create directory if it's not created."""
+    if check_dir_exist():
+        return False
+    else:
+        os.makedirs(path_structure)
+        return True
+
+
+def create_entity(
+        new_entity='draft_entity',
+        entity_AM=False,
+        entity_PEP=False):
+    """Check if file exist. if not, then proceed to create."""
     empty_template = 'templates/empty_template.md'
     am_template = 'templates/am_template.md'
     am_pep_template = 'templates/am_pep_template.md'
@@ -31,27 +46,25 @@ def create_entity(new_entity = 'draft_entity', entity_AM = False, entity_PEP = F
     # Ask for new entity
     new_entity_estructure = path_structure + '/' + new_entity + '.md'
 
-    if os.path.isfile(new_entity_estructure):
-        return False
-    if entity_AM == False and entity_PEP == False:
+    if entity_AM is False and entity_PEP is False:
         # copy empty skeleton
         create_dir()
         copyfile(empty_template, new_entity_estructure)
         return True
 
-    elif entity_AM == True and entity_PEP == False:
+    elif entity_AM is True and entity_PEP is False:
         # copy adverse media only template
         create_dir()
         copyfile(am_template, new_entity_estructure)
         return True
 
-    elif entity_AM == True and entity_PEP == True:
+    elif entity_AM is True and entity_PEP is True:
         # copy entity_PEP template with adverse media
         create_dir()
         copyfile(am_pep_template, new_entity_estructure)
         return True
 
-    elif entity_AM == False and entity_PEP == True:
+    elif entity_AM is False and entity_PEP is True:
         # copy entity_PEP template with no adverse media
         create_dir()
         copyfile(pep_template, new_entity_estructure)

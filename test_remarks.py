@@ -1,12 +1,17 @@
+"""Test remarks and its functions."""
+
 import unittest
 import modules
-import os
 import time
 import random
+from os import path
+
+
 class EntityTestCase(unittest.TestCase):
     """Test new_entity function."""
-    def setUp(self):
 
+    def setUp(self):
+        """Set up variables and locations."""
         # simulating an entity ID
         self.new_entity_id = str(random.randint(100000, 999999))
 
@@ -31,12 +36,12 @@ class EntityTestCase(unittest.TestCase):
 
     # uncomment this section to test new file creations
     # but it can clutter the folders when ran too many times
-    #def test_file_creation(self):
-    #    """Test random id file and empty file."""
-    #    modules.io.create_entity(self.new_entity_id)
-    #    # check if file exist
-    #    self.assertTrue(os.path.isfile(self.id_full_path))
-    #    self.assertEqual(self.id_full_path, self.id_full_path)
+    def test_file_creation(self):
+        """Test random id file and empty file."""
+        modules.io.create_entity(self.new_entity_id)
+        # check if file exist
+        self.assertTrue(path.isfile(self.id_full_path))
+        self.assertEqual(self.id_full_path, self.id_full_path)
 
     def test_empty_file(self):
         """Test if empty file is named correctly."""
@@ -52,25 +57,25 @@ class EntityTestCase(unittest.TestCase):
         self.assertEqual(self.empty_template, draft_template)
 
         # create PEP template
-        modules.io.create_entity(entity_PEP = True, entity_AM = False)
+        modules.io.create_entity(entity_PEP=True, entity_AM=False)
         with open(self.draft_location) as draft_location_object:
             draft_template = draft_location_object.read()
         self.assertEqual(self.pep_template, draft_template)
 
         # create adverse media template
-        modules.io.create_entity(entity_AM = True)
+        modules.io.create_entity(entity_AM=True)
         with open(self.draft_location) as draft_location_object:
             draft_template = draft_location_object.read()
         self.assertEqual(self.am_template, draft_template)
 
         # create PEP with adverse media template
-        modules.io.create_entity(entity_AM = True, entity_PEP = True)
+        modules.io.create_entity(entity_AM=True, entity_PEP=True)
         with open(self.draft_location) as draft_location_object:
             draft_template = draft_location_object.read()
 
-    def test_overwrite_draft(self):
-        """Test for overwrite option in draft creation."""
-        overwrite_entity = modules.io.create_entity(overwrite = False)
-        self.assertFalse(overwrite_entity)
+    # def test_no_overwrite():
+    #     overwrite_options = modules.io.create_entity(overwrite_entity=False)
+    #     self.assertFalse(overwrite_options, 'False returned')
+
 
 unittest.main()
