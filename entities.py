@@ -1,3 +1,3 @@
-!#/usr/bin/env python
+"""Main entity framework."""
 
-# Code to be filled
+# code
