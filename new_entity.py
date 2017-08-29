@@ -1,4 +1,5 @@
-# import file_operations.py variables and functions
+"""Temporary module to create entities."""
+
 import modules
 
 active = True
