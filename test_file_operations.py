@@ -78,4 +78,5 @@ class EntityTestCase(unittest.TestCase):
     #     self.assertFalse(overwrite_options, 'False returned')
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
