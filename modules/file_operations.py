@@ -34,10 +34,9 @@ def create_dir():
         return True
 
 
-def create_entity(
-        new_entity='draft_entity',
-        entity_AM=False,
-        entity_PEP=False):
+def create_entity(new_entity='draft_entity',
+                  entity_AM=False,
+                  entity_PEP=False):
     """Check if file exist. if not, then proceed to create."""
     empty_template = 'templates/empty_template.md'
     am_template = 'templates/am_template.md'
